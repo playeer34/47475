@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main ()
+{
+	setlocale(LC_ALL,"Bulgarian");
+	long double x=1;
+int	i=12;
+	for (int i=12; i<150; i++);
+	do
+	{
+	//cout<<"set x= ";
+	//cin>>x;
+	if (i%11==0) x=x*i; i++;  
+	}
+	while(i<150);
+	cout<<"x= "<<x<<endl;
+}
